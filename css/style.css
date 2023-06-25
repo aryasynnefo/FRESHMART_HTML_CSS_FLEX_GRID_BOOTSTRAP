@@ -1,0 +1,165 @@
+.home{
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.head{
+    margin-left: 800px;
+    padding-top: 250px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.p1{
+    margin-left: 791px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.nav{
+    margin-left: 700px;
+    
+}
+
+.list{
+    letter-spacing: 2px;
+    margin-right: 50px;
+}
+
+.veg{
+    display: flex;
+}
+
+.img1 img{
+    width: 600px; 
+    height: 400px;
+
+  
+}
+
+.p2{
+    padding-top: 150px;
+    letter-spacing: 1px;
+}
+
+.p2 h1{
+    text-align: center;
+}
+
+.p2 p{
+    text-align:justify;
+}
+.shop{
+    margin-left: 230px;
+}
+
+.img2 img{
+    width: 600px; 
+    height: 500px;
+
+  }
+
+  .div1{
+    margin-left: 50px;
+  }
+  .p3{
+    padding-top: 200px;
+    letter-spacing: 1px;
+  }
+
+  .p3 h1{
+    text-align: center;
+  }
+  .p3 p{
+    text-align: justify;
+  }
+
+
+  
+
+  .gallery{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 10px;
+    column-gap: 2px;
+    height: 440px;
+    row-gap: 20px;
+
+}
+
+
+.copyright{
+    text-align: center;
+    height: 30px;
+    color: white;
+    padding: 100px;
+}
+
+.cont{
+    background-color: black;
+}
+
+
+.card{
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.r1{
+    padding-left: 30px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.add{
+    background-color: darkorange;
+}
+
+
+
+@media(min-width:400px) and (max-width:767.98px){
+
+    .home{
+        background-image: url(../images/home.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        width: 800px;
+        height: auto;
+        
+       
+    }
+
+    .head{
+        margin-left: 0px;
+        padding-top: 250px;
+        color: white;
+        letter-spacing: 2px;
+      
+    }
+    
+    .p1{
+        margin-left: 0px;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(1,1fr);
+        /* padding-top: 10px;
+        column-gap: 2px;
+        height: 440px;
+        row-gap: 20px; */
+        
+    
+    }
+
+}
